@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.font-mono-calc {
+  font-family: 'JetBrains Mono', Consolas, monospace;
+}
+
+/* Excel scrollbar styling */
+.excel-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.excel-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.excel-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.excel-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
